@@ -74,7 +74,7 @@ def test_delete_post():
     assert response.status_code == 200
 
 def test_get_nonexsistent_post():
-    reponse = requests.delete(f"{BASE_URL}/posts/99999")
+    reponse = requests.get(f"{BASE_URL}/posts/99999")
 
     # This is a negitive test - we expect a 404
     assert reponse.status_code == 404
