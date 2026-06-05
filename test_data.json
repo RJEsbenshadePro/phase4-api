@@ -1,0 +1,26 @@
+{
+  "valid_post_ids": [1, 2, 3, 4, 5],
+  "valid_user_ids": [1, 2, 3],
+  "invalid_ids": [99999, 99998, 0],
+  "new_posts": [
+    {
+      "title": "First Test Post",
+      "body": "Body of first test post",
+      "userId": 1
+    },
+    {
+      "title": "Second Test Post",
+      "body": "Body of second test post",
+      "userId": 2
+    },
+    {
+      "title": "Third Test Post",
+      "body": "Body of third test post",
+      "userId": 3
+    }
+  ],
+  "invalid_posts": [
+    {"title": "", "body": "No title", "userId": 1},
+    {"title": "No body", "body": "", "userId": 1}
+  ]
+}
